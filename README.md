@@ -201,6 +201,7 @@ header).
 
 The default value is `undefined`.
 
+  - `force` The connection is considered secure anyway.
   - `true` The "X-Forwarded-Proto" header will be used.
   - `false` All headers are ignored and the connection is considered secure only
     if there is a direct TLS/SSL connection.
